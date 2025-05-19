@@ -27,6 +27,7 @@
  */
 
 
+#include <string>
 #ifndef MODELDATA_H_
 #define MODELDATA_H_
 
@@ -39,8 +40,11 @@
 //string paramsFile = "JuliaSets_params.json";
 //string paramsFile = "zermelo_tmin_params.json";
 //string paramsFile = "zermelo_Lmin_params.json";
-string paramsFile = "ExempleViabi2D_params.json";
+//string paramsFile = "model_economique_FL.json";
+//string paramsFile = "eco1D.json";
+string paramsFile = "model_Ferme_trajectore.json";
 //string paramsFile = "allParams.json";
+//string paramsFile = "resilience.json";
 
 /************************************************************************************************
  * inclusion des déclarations du modèle
@@ -50,7 +54,10 @@ string paramsFile = "ExempleViabi2D_params.json";
 //#include  "../data/zermelo_tmin.h" // Zermelo temps minimum
 //#include  "../data/zermelo_Lmin.h"   //-- Zermelo crit�re int�gral
 //#include  "../data/Julia2D_data.h" // Zermelo temps minimum
-#include "../data/ExempleViabi2D_data.h"
+//#include "../data/ExempleViabi2D_data.h"
+//#include "../data/eco1D.h"
+#include "../data/model_ferme.h"
+//#include "../data/model_economique_FL.h"
 //#include  "../data/testPendule_data.h"   //-- Bassin de capture, pendule
 //#include  "../data/resilience_data.h"   //-- Noyeu de viabilit� resilience
 //#include "../data/equilibres4D_data.h"           // economie
